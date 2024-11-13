@@ -1,0 +1,77 @@
+.main_redis h2 {
+  background-color: rgb(122, 67, 174);
+  padding: 3px 0;
+  color: white;
+}
+
+.redis_data_container {
+  width: 100%;
+  height: calc(100vh - 80px);
+}
+
+.redis_data_form {
+  width: 80%;
+  margin: 10px auto;
+  display: flex;
+  gap: 30px;
+  font-size: larger;
+  align-items: center;
+  background-color: rgb(122, 67, 174);
+  color: white;
+  padding: 10px;
+
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.redis_data_container input {
+  padding: 8px 5px;
+  width: 80%;
+  height: 30px;
+  font-size: 30px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+.redis_data_container button {
+  padding: 16px 25px;
+  border: none;
+  border-radius: 5px;
+}
+.redis_result {
+  width: 80%;
+  height: calc(100vh - 200px);
+  font-size: 30px;
+  padding: 10px;
+  margin: 10px auto;
+  background-color: rgb(58, 58, 58);
+  color: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  position: relative;
+}
+.content {
+  overflow-x: auto;
+  height: calc(100vh - 200px);
+  scrollbar-width: thin;
+}
+
+.redis_result_copy_btn {
+  position: absolute;
+  top: 10px;
+  right: 90px;
+  scale: 0.8;
+}
+.redis_result_clear_btn {
+  position: absolute;
+  scale: 0.8;
+  top: 10px;
+  right: 20px;
+}
+
+.redis_result button:hover {
+  scale: 0.8;
+  background-color: rgb(122, 67, 174);
+  color: white;
+}

@@ -1,0 +1,104 @@
+.main-logs {
+  /* background-color: rgb(129, 134, 134); */
+  width: 100%;
+  height: 90vh;
+}
+.main-logs h2 {
+  background-color: rgb(122, 67, 174);
+  padding: 3px 0;
+}
+.main-logs > h2 {
+  padding: 10px 0;
+  color: white;
+}
+.container-terminal {
+  margin: 20px;
+  display: flex;
+}
+.container-list {
+  width: 20%;
+  background-color: rgba(16, 12, 12, 0.763);
+  color: white;
+  /* height: 60vh; */
+}
+
+.log-terminal {
+  width: 85%;
+  min-height: 500px;
+  /* height: 60vh; */
+  background-color: rgb(58, 58, 58);
+  color: white;
+}
+
+.log-terminal-header {
+  display: flex;
+  background-color: rgb(122, 67, 174);
+  justify-content: space-between;
+  align-items: center;
+}
+.log-terminal-header h2 {
+  padding-left: 40px;
+}
+.log-terminal-header form {
+  display: flex;
+  padding-right: 40px;
+  align-items: center;
+}
+.log-terminal-header form input {
+  padding: 5px;
+}
+
+button {
+  padding: 5px 30px;
+  cursor: pointer;
+}
+button:hover {
+  scale: 1.2;
+}
+.container-list ul {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+}
+.container-list ul li {
+  list-style: none;
+  margin-top: 5px;
+  width: 100%;
+  background-color: rgba(122, 67, 174, 0.655);
+  border-bottom: 2px solid white;
+  padding: 5px 10px;
+}
+.container-list ul li a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.container-list ul li:hover {
+  background-color: rgb(147, 52, 236);
+}
+
+.print-log {
+  margin: 10px;
+  /* max-height: 600px; */
+  /* min-height: 500px; */
+  height: 600px;
+  /* margin-bottom: 40px; */
+  border: 2px solid white;
+  padding: 10px;
+  overflow: auto;
+  scrollbar-width: thin;
+}
+
+.download_icon {
+  margin: 5px 2px;
+  padding: 2px 30px;
+  height: 24px;
+  background-color: rgb(233, 238, 240);
+  cursor: pointer;
+}
+
+.download_icon:hover {
+  scale: 1.2;
+}
